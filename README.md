@@ -45,6 +45,11 @@ Run the following commands to build the Docker image:
 ```bash
 docker build -t image-name .
 ```
+### Run the Docker Container
+After building the image, run the Docker container with the following command:
+
+```docker run -p 3001:3001 image-name ```
+This command starts the Docker container, mapping port 3001 on your local machine to port 3001 inside the container.
 
 ## Kubernetes
 
