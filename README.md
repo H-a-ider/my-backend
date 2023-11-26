@@ -31,11 +31,11 @@ Make sure you have the following installed before running the application:
 To run the Next.js API, use the following command:
 ```bash
 npm run dev
+```
+This will start the development server, and your API will be accessible at http://localhost:3000/api/your-endpoint. Replace your-endpoint with the actual endpoint you've defined in your project.
 
+## API Logic
+The API logic in this example is simple; it responds with a JSON object containing a greeting message. Customize this logic based on your application's requirements.
 
-
-**API Logic**
-The API logic in this example is simple; it responds with a JSON object containing a greeting message. You can customize this logic based on your application's requirements.
-
-**Environment Variables**
-The API logic also uses an environment variable (process.env.NAME) to personalize the greeting message. You can set this variable in a .env file or as part of your deployment process.
+## Environment Variables
+The API logic also uses an environment variable (process.env.NAME) to personalize the greeting message. Set this variable in a .env file or as part of your deployment process.
