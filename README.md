@@ -38,7 +38,7 @@ This will start the development server, and your API will be accessible at http:
 
 This project includes a Dockerfile for containerized deployment. To build and run the Docker container, follow these steps:
 
-### 1. Build the Docker Image
+### Build the Docker Image
 
 Run the following commands to build the Docker image:
 
@@ -48,14 +48,16 @@ docker build -t image-name .
 ### Run the Docker Container
 After building the image, run the Docker container with the following command:
 
-```docker run -p 3001:3001 image-name ```
+```bash
+docker run -p 3001:3001 image-name
+```
 This command starts the Docker container, mapping port 3001 on your local machine to port 3001 inside the container.
 
 ## Kubernetes
 
 This project includes Kubernetes deployment files for orchestrating the application. To deploy the backend using Kubernetes, follow these steps:
 
-### 1. Apply the Deployment
+### Apply the Deployment
 
 Apply the deployment file:
 
