@@ -19,10 +19,10 @@ function runMiddleware(req, res, fn) {
 }
 
 export default async function handler(req, res) {
-  // Run the CORS middleware
+  // Running the CORS middleware
   await runMiddleware(req, res, cors);
 
-  // Your existing API logic
+  // My API logic
   const name = process.env.NAME || "Guest";
   res.status(200).json({ message: `Hello ${name}` });
 }
