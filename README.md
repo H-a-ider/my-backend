@@ -69,4 +69,4 @@ kubectl apply -f path/to/your/kubernetes/deployment.yaml
 The API logic in this example is simple; it responds with a JSON object containing a greeting message. Customize this logic based on your application's requirements.
 
 ## Environment Variables
-The API logic also uses an environment variable (process.env.NAME) to personalize the greeting message. Set this variable in a .env file or as part of your deployment process.
+The API logic also uses an environment variable (process.env.NAME) to personalize the greeting message. Set this variable in a .env file or as part of your deployment process. 
