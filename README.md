@@ -1,6 +1,6 @@
 # my-backend
 
-## Overview
+## Overview 
 
 This repository contains a Next.js API route with CORS (Cross-Origin Resource Sharing) middleware configured. CORS is a security feature implemented by web browsers that restricts webpages from making requests to a different domain than the one that served the original webpage. This middleware allows you to control which domains are permitted to access your API.
 
