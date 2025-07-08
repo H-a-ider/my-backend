@@ -16,10 +16,10 @@ spec:
     spec:
       containers:
       - name: backend
-        image: zeeshan19/backend:latest
+        image: " "
         env:
         - name: NAME
-          value: "Zeeshan Haider"  
+          value: " "  
         ports:
         - containerPort: 3001
 ---
